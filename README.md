@@ -1,41 +1,21 @@
-# Convive Escolar - sitio web inicial
+# Convive Escolar sitio público
 
-Este ZIP contiene una landing page estática lista para subir a Netlify, Cloudflare Pages, GitHub Pages o cualquier hosting simple.
+Sitio estático para `conviveescolar.cl`.
 
 ## Archivos
 
-- `index.html`: contenido principal del sitio.
-- `styles.css`: estilos visuales.
+- `index.html`: página principal con planes y botón de ingreso.
+- `styles.css`: diseño visual.
 - `script.js`: menú móvil.
-- `assets/logo.svg`: logo editable en formato SVG.
-- `assets/favicon.svg`: ícono del sitio.
-- `assets/og-convive-escolar.svg`: imagen para compartir en redes.
+- `assets/convive-isotipo.png`: logo/isotipo.
+- `assets/favicon.png` y `favicon.ico`: favicon.
 
-## Cómo subirlo a Netlify
+## Enlace a plataforma
 
-1. Entra a Netlify.
-2. Crea un sitio nuevo.
-3. Usa la opción de subir carpeta o arrastra esta carpeta descomprimida.
-4. Luego configura tu dominio `conviveescolar.cl` en Domain Management.
+El botón **Ingreso a plataforma** apunta a:
 
-## Qué editar primero
+`https://ieac.cl/conviveescolar/`
 
-En `index.html`, revisa el correo de contacto:
+## Subida
 
-```html
-contacto@conviveescolar.cl
-```
-
-Si luego quieres agregar WhatsApp, puedes cambiar el botón principal de contacto por un enlace como:
-
-```html
-https://wa.me/569XXXXXXXX
-```
-
-## Recomendación
-
-Cuando ya tengas dominio y correo definitivo, agrega:
-- Política de privacidad.
-- Términos de servicio.
-- Datos de contacto reales.
-- Capturas reales del sistema cuando tengas la primera demo.
+Puedes subir esta carpeta completa a Netlify, cPanel o cualquier hosting estático.
